@@ -1,0 +1,125 @@
+/* GLOBAL */
+
+@font-face {
+    src: url(./font/Gotham\ Medium.otf);
+    font-family: "Gotham";
+}
+
+html, body {
+    font-family: "Gotham";
+    margin: 0;
+    padding: 0;
+}
+
+a { text-decoration: none; color: inherit; }
+
+.flexbox {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+/* HEADER */
+
+.header {
+    color: #ffffff;
+    background-color: #262626;
+    width: 100%;
+    height: 50px;
+}
+
+.header-left {
+    justify-content: start;
+    width: 35%;
+    position: relative;
+    float: left;
+}
+
+.header-right {
+    justify-content: end;
+    width: 15%;
+    position: relative;
+    float: right;
+}
+
+.nav-button {
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 0.8425rem;
+    padding: 0 20px;
+}
+
+.header-left .nav-button {
+    border-right: 1px solid #ffffff;
+}
+
+.header-right .nav-button {
+    border-left: 1px solid #ffffff;
+}
+
+.basket {
+    background-color: #a7875a;
+}
+
+/* BANNER */
+
+.items {
+    color: #ffffff;
+    font-style: "Gotham SSm A", Arimo,"Open Sans","Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+    width: 100%;
+    margin: 0 auto 0 auto;
+    justify-content: center;
+}
+
+.item-image {
+    width: 50px;
+    margin: 0 auto 10px auto;
+    display: block;
+}
+
+.item-select {
+    margin: 0 25px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 180px;
+    text-align: center;
+}
+
+.item-select:hover {
+    background-color: #ffffff;
+    color: #da2128;
+}
+
+.item-text {
+    padding: 0 10px;
+}
+
+.red-banner {
+    background-image:linear-gradient(#da2128, #990000);
+    width: 100%;
+    height: 140px;
+}
+
+.white-banner {
+    width: 100%;
+    height: 70px;
+    justify-content: center;
+}
+
+.banner-info {
+    padding: 100px;
+    font-size: 15px;
+    transition: color 0.5s ease;
+}
+
+.banner-info:hover {
+    color: #da2128;
+}
+
+.logo {
+    position: absolute;
+    top: 50px;
+}

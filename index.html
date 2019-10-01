@@ -1,39 +1,65 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8" />
-    <title>La page de test</title>
-</head>
+    <head>
+        <meta charset="utf-8" />
+        <title>Tenues de match | Boutique officielle de l'OGC Nice</title>
+        <link rel="stylesheet" href="./assets/style.css" />
+    </head>
 
-<body>
-    <h1>Bienvenue sur la page de tests</h1>
+    <body>
+        <header class="header">
+            <div class="header-left flexbox">
+                <a class="nav-button nb-left" href="https://billetterie.ogcnice.com/billetterie">BILLETTERIE</a>
+                <a class="nav-button nb-left" href="https://boutique.ogcnice.com/">BOUTIQUE</a>
+                <a class="nav-button nb-left" href="http://www.ogcnice.com/fr/">OGCNICE.COM</a>
+            </div>
 
-    <p>Ici on procède à des <strong>tests</strong>.<br />
-       Des tests de balises.</p>
+            <div class="header-right flexbox">
+                <a class="nav-button nb-right" href="https://boutique.ogcnice.com/account/">+ MON COMPTE</a>
+                <a class="nav-button nb-right basket" href="https://boutique.ogcnice.com/p/panier.html">PANIER</a>
+            </div>
+        </header>
 
-    <h2>HTML</h2>
-    
-    <p>Parce que <mark>tout commence avec le HTML</mark>.</p>
-    
-    <p>Enfin, tout le <em>web</em>.</p>
+        <main>
+            <section>
 
-    <ul>
-        <li>Je suis un item</li>
-        <li>Moi aussi je suis un item</li>
-        <li>Et moi un autre item</li>
-    </ul>
+                <div class="red-banner">
+                    <img src="./assets/images/logo.png" alt="REFLEXE !" class="logo"/>  
+                    
+                    <div class="items flexbox">
+                        <div class="item-select">
+                            <img src="assets/images/pictomaillot.png" class="item-image"/> <a class="item-button">TENUES DE MATCH</a>
+                        </div>
 
-    <ol>
-        <li>Premièrement...</li>
-        <li>Deuxièmement...</li>
-        <li>Troisièmement...</li>
-        <li>Bref, ça devient long.</li>
-    </ol>
+                        <div class="item-select">
+                            <img src="assets/images/vtrainingpicto.png" class="item-image"/> <a class="item-button">ENTRAINEMENT</a>
+                        </div>
 
-    <a href="http://google.com">Vers le savoir ultime</a>
+                        <div class="item-select">
+                            <img src="assets/images/pictopolo.png" class="item-image"/> <a class="item-button">PRET A PORTER</a>
+                        </div>
 
-    <h2>CSS</h2>
-    
-    <p>On en est pas encore là par contre...</p>
-</body>
+                        <div class="item-select">
+                            <img src="assets/images/pictopc.png" class="item-image"/> <a class="item-button">ACCESSOIRES</a>
+                        </div>
+
+                        <div class="item-select">
+                            <img src="assets/images/plan-de-travail-1.png" class="item-image"/> <a class="item-button">PROMOTIONS</a>  
+                        </div>
+                    </div>
+                </div>
+
+                <div class="white-banner flexbox">
+                    <p class="banner-info"><strong>Paiements 100% sécurisés</strong></p>
+                    <p class="banner-info"><strong>04 93 13 47 72</strong> - Boutique Officielle </p>
+                    <p class="banner-info"><strong>Livraison Express</strong> - En France Métropolitaine sous 48 heures.</p>
+                </div>
+            </section>
+
+            <section>
+                <img src="assets/images/cate-tenues-de-match.jpeg" />
+                <h1>TENUES DE MATCH</h1>
+            </section>
+        </main>
+    </body>
 </html>
