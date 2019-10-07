@@ -1,9 +1,9 @@
 class Slider {
     constructor(element) {
         this.element = $(element);
-        console.log("Element is " + this.element);
+        //console.log("Element is " + this.element);
         this.slides = this.element.find(".slide-image").toArray();
-        console.log(this.slides.length + " images loaded");
+        //console.log(this.slides.length + " images loaded");
     }
 
     slide(index) {
@@ -11,7 +11,7 @@ class Slider {
         this.timeout = setTimeout(() => {
             this.slide((index + 1 > this.slides.length - 1) ? 0 : index + 1);
         }, 2000);
-        console.log("SLIIIIIIIIIIDE " + index);
+        c//onsole.log("SLIIIIIIIIIIDE " + index);
     }
 
     stop() {
@@ -21,7 +21,7 @@ class Slider {
 
 $(() => {
     $(".slider").each((index, element) => {
-        console.log("An element is " + element)
+        //console.log("An element is " + element)
         new Slider(element).slide(0);
     });
 })
